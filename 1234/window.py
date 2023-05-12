@@ -7,7 +7,7 @@ from kapcha import Window
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setFixedSize(500, 350)
+        self.setFixedSize(500, 250)
         self.setWindowTitle("Регистрация")
 
         self.first_lbl = QLabel("Login ")
@@ -42,10 +42,8 @@ class MainWindow(QMainWindow):
             self.kapcha = Window()
             self.kapcha.show()
             
-
-    
     def exit(self):
-        window.exit()
+        self.close()
 
 #Стиль
 
