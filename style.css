@@ -1,0 +1,35 @@
+.QWidget{
+    background: #ca303a;
+ }
+ .QLabel{
+    font-size: 24px; 
+    
+ } 
+ .QPushButton{
+    background-color: rgb(237, 17, 146);
+    border-radius: 15px;
+    
+ }
+ 
+ .QPushButton{
+    background-color: rgb(237, 17, 146);
+    border-radius: 15px;
+    font-size: 24px;
+ }
+ .QPushButton:hover{
+    background-color: rgb(188, 10, 30);
+    border-radius: 15px;
+    font-size: 24px;
+ }
+ .QLineEdit{
+    background:rgb(95, 2, 49);
+    border: 1px solid darkblue;
+    font-size: 20px;
+    border-radius: 15px;
+ }
+
+ /* .QComboBox{
+    color: rgb(62, 127, 226);
+ } 
+  */
+   
